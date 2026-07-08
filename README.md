@@ -1,23 +1,21 @@
 # rSV Research Pipeline
 
-This repository contains the pipeline for genetic data analysis, including variant calling, quality control (QC), rSV calling, heritability estimation, eQTL analysis, and polygenic risk prediction.
+This repository contains the pipeline for genetic data analysis, including quality control (QC), heritability estimation, cis-eQTL analysis, and risk prediction.
 
 ## Modules
 
-1. **Variant Call**  
-   Performs variant calling on raw genetic data (e.g., WGS or VCF files).
+1. **QC**  
+   Conducts quality control of SNPs, indels, SVs and refined variants.
 
-2. **QC and rSV Call**  
-   Conducts quality control and refines structural variant (rSV) calling.
-
-3. **Heritability Estimation**  
+2. **Heritability**  
    Estimates heritability using genetic relationship matrices and REML.
 
-4. **eQTL Analysis**  
-   Analyzes expression quantitative trait loci (eQTL) to link genetic variants with gene expression.
+3. **cis-eQTL codes**  
+   Analyzes cis expression quantitative trait loci (eQTL) to link genetic variants with gene expression.
 
-5. **Polygenic Risk Prediction**  
+4. **Prediction**  
    Calculates polygenic risk scores (PRS) for phenotypic prediction.
+
 
 ## Contact
 
